@@ -1,0 +1,22 @@
+{
+  "name": "api-projeto-final",
+  "version": "1.0.0",
+  "description": "> Sistema de Gerenciamento de Serviços. Permite agendamento e edição de serviçoes de profissionais a seus clientes, assistindo os prestadores de serviço com a organização diaria de seu trabalho, e garantindo uma facilidade administrativa do profissional e facilidade de acesso a serviçoes buscados por clientes.",
+  "main": "index.js",
+  "scripts": {
+  "dev": "node --watch --env-file=.env src/server.js",
+  "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/F-TNK/api-projeto-final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/F-TNK/api-projeto-final/issues"
+  },
+  "homepage": "https://github.com/F-TNK/api-projeto-final#readme"
+}
