@@ -1,0 +1,48 @@
+// Tabela servicos
+export const servicos = [
+  {
+    id: 1,
+    nome: "Corte Masculino",
+    duracaoMin: 30,
+    preco: 45.0,
+    status: "ativo",
+    categoriaId: 1,
+    criadoEm: "2026-11-09T10:00:00Z",
+  },
+  {
+    id: 2,
+    nome: "Barba Completa",
+    duracaoMin: 45,
+    preco: 35.5,
+    status: "ativo",
+    categoriaId: 2,
+    criadoEm: "2026-11-09T10:15:00Z",
+  },
+  {
+    id: 3,
+    nome: "Limpeza de Pele",
+    duracaoMin: 60,
+    preco: 120.0,
+    status: "inativo",
+    categoriaId: 3,
+    criadoEm: "2026-11-09T11:30:00Z",
+  },
+  {
+    id: 4,
+    nome: "Pé e Mão",
+    duracaoMin: 50,
+    preco: 60.0,
+    status: "ativo",
+    categoriaId: 4,
+    criadoEm: "2026-11-09T12:00:00Z",
+  },
+  {
+    id: 5,
+    nome: "Massagem Relaxante",
+    duracaoMin: 60,
+    preco: 150.0,
+    status: "ativo",
+    categoriaId: 5,
+    criadoEm: "2026-11-09T13:40:00Z",
+  },
+];
