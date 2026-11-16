@@ -1,9 +1,10 @@
-import { getServicos } from "../controllers/servicosController";
-import { getServicosById } from "../controllers/servicosController";
+import { Router } from 'express';
+import { getServicos } from "../controllers/servicosController.js";
+import { getServicosById } from "../controllers/servicosController.js";
 
 const router = Router();
 
-router.get("/servicos", getServicos);
-router.get("/servicos/:id", getServicosById);
+router.get("/", getServicos);
+router.get("/:id", getServicosById);
 
 export default router;

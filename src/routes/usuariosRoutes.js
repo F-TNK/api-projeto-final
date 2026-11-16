@@ -1,9 +1,10 @@
-import { getUsuarios } from "../controllers/usuariosController";
-import { getUsuariosById } from "../controllers/usuariosController";
+import { Router } from 'express';
+import { getUsuarios } from "../controllers/usuariosController.js";
+import { getUsuariosById } from "../controllers/usuariosController.js";
 
 const router = Router();
 
-router.get("/usuarios", getUsuarios);
-router.get("/usuarios/:id", getUsuariosById);
+router.get("/", getUsuarios);
+router.get("/:id", getUsuariosById);
 
 export default router;

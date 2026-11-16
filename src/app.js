@@ -1,6 +1,9 @@
 // app.js: monta a aplicação Express (rotas, middlewares).
 // Quem liga o servidor é o server.js. Separar os dois facilita testes e o deploy.
 import express from "express";
+import categoriasRoutes from './routes/categoriasRoutes.js';
+import servicosRoutes from './routes/servicosRoutes.js';
+import usuariosRoutes from './routes/usuariosRoutes.js';
 
 const app = express();
 
@@ -39,6 +42,7 @@ app.get("/", (req, res) => {
   });
 });
 
+
 app.use('/api/categorias', categoriasRoutes);
 app.use('/api/servicos', servicosRoutes);
 app.use('/api/usuarios', usuariosRoutes);
@@ -58,7 +62,6 @@ app.use((erro, req, res, next) => {
 });
 
 export default app;
-
 
 /*
 // GET Usuarios
