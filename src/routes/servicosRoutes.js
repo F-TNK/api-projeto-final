@@ -1,7 +1,5 @@
 import { Router } from 'express';
-import { getServicos } from "../controllers/servicosController.js";
-import { getServicosById } from "../controllers/servicosController.js";
-import { createServicos } from "../controllers/servicosController.js";
+import { getServicos, getServicosById, createServicos } from "../controllers/servicosController.js";
 
 const router = Router();
 
